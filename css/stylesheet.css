@@ -1,0 +1,55 @@
+/* site wide */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+    font-family: 'Major Mono Display', monospace;
+}
+
+.highlight {
+    font-family: 'Courier Prime', monospace;
+}
+
+.desc-text {
+    font-style: italic;
+    text-align: center;
+    font-size: 0.75em;
+}
+
+/* Main title */
+#site-title {
+    text-align: center;
+}
+
+#site-title h1{
+    font-size: 5em;
+}
+
+/* Main image */
+#img-bg-fixed-height {
+    background: url('../img/google_maps_north.png') no-repeat center center scroll;
+    background-size: cover;
+    padding: 20vh 0;
+}
+
+/* navbar */
+#nav-border {
+    border-top: 2px black solid;
+    border-bottom: 2px black solid;
+}
+
+ul#navbar {
+    padding: 0;
+}
+
+ul#navbar li {
+    padding: 20px;
+    display: inline;
+    list-style: none;
+}
+
+ul#navbar li a {
+    text-align: center;
+    font-size: 1em;
+}
