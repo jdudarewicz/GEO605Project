@@ -3,6 +3,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+p {
+    line-height: 2em;
+}
+
 .title {
     font-family: 'Major Mono Display', monospace;
 }
@@ -16,6 +20,11 @@ body {
     text-align: center;
     font-size: 0.75em;
 }
+
+.hangingindent {
+    padding-left: 3em;
+    text-indent: -3em;
+} 
 
 /* Main title */
 #site-title {
