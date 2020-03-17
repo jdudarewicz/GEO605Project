@@ -1,6 +1,7 @@
 /* site wide */
 body {
     font-family: 'Montserrat', sans-serif;
+    margin-bottom: 2em;
 }
 
 p {
@@ -26,6 +27,11 @@ p {
     text-indent: -3em;
 } 
 
+.marginshrink {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
 /* Main title */
 #site-title {
     text-align: center;
@@ -41,6 +47,14 @@ p {
     background-size: cover;
     padding: 20vh 0;
 }
+
+/* FN Art */
+#img-fn-art {
+    background: url('../img/FN-art.jpg') no-repeat center center scroll;
+    background-size: cover;
+    padding: 40vh 0;
+}
+
 
 /* navbar */
 #nav-border {
