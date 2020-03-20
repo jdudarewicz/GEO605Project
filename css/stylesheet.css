@@ -55,6 +55,13 @@ p {
     padding: 40vh 0;
 }
 
+/* Porcupine Caribou */
+#img-porcupine-caribou {
+    background: url('../img/porcupine_caribou.jpg') no-repeat center center scroll;
+    background-size: cover;
+    padding: 40vh 0;
+}
+
 
 /* navbar */
 #nav-border {
