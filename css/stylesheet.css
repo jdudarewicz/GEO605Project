@@ -12,6 +12,10 @@ ul li {
     line-height: 2em;
 }
 
+ol li {
+    line-height: 2em;
+}
+
 .title {
     font-family: 'Major Mono Display', monospace;
 }
@@ -69,6 +73,20 @@ ul li {
 /* Devils Rock */
 #img-devilsrock {
     background: url('../img/devils-rock.jpg') no-repeat center center scroll;
+    background-size: cover;
+    padding: 40vh 0;
+}
+
+/* Baffin Island */
+#img-baffinisland {
+    background: url('../img/baffin-island.jpg') no-repeat center center scroll;
+    background-size: cover;
+    padding: 40vh 0;
+}
+
+/* Attawapiskat */
+#img-attawapiskat {
+    background: url('../img/attawapiskat.JPG') no-repeat center center scroll;
     background-size: cover;
     padding: 40vh 0;
 }
